@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UCZZdSNjtfEkw2GfI0FlkJeR6r/KQvAkM5BaZLzSuTNwDlQxtkco/TECmdSCMKx1FqcXp5YSig93T6tq2ade8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aburdels\\IoT23_27109\\IoTWebApp2023\\IoTWebApp2023.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aburdels\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\7.0.10\\microsoft.netcore.app.runtime.linux-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\aburdels\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\7.0.10\\microsoft.aspnetcore.app.runtime.linux-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\aburdels\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\7.0.10\\microsoft.netcore.app.host.linux-x64.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
