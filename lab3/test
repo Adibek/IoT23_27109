@@ -1,0 +1,17 @@
+POST https://ab-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+content-type: application/json
+
+{
+    "FirstName": "Jan",
+    "LastName": "Nowak"
+}
+
+GET https://ab-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+content-type: application/json
+
+{}
+
+
+DELETE https://ab-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+content-type: application/json
+
