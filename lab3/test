@@ -15,3 +15,15 @@ content-type: application/json
 DELETE https://ab-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
 content-type: application/json
 
+{
+    "Id": 1
+}
+
+PUT https://ab-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+content-type: application/json
+
+{
+    "Id": 1,
+    "FirstName": "Kamil",
+    "LastName": "Kowal"
+}
