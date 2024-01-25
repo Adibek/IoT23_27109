@@ -1,4 +1,4 @@
-POST https://ab-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+POST https://abu-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
 content-type: application/json
 
 {
@@ -6,24 +6,25 @@ content-type: application/json
     "LastName": "Nowak"
 }
 
-GET https://ab-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+GET https://abu-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
 content-type: application/json
 
 {}
 
 
-DELETE https://ab-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+DELETE https://abu-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
 content-type: application/json
 
 {
-    "Id": 1
+    "Id": "1"
 }
 
-PUT https://ab-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+PUT https://abu-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
 content-type: application/json
 
 {
-    "Id": 1,
+    "Id": "1",
     "FirstName": "Kamil",
     "LastName": "Kowal"
 }
+
