@@ -1,0 +1,30 @@
+POST https://abu-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+content-type: application/json
+
+{
+    "FirstName": "Jan",
+    "LastName": "Nowak"
+}
+
+GET https://abu-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+content-type: application/json
+
+{}
+
+
+DELETE https://abu-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+content-type: application/json
+
+{
+    "Id": "1"
+}
+
+PUT https://abu-function.azurewebsites.net/api/PeopleFn?code=test HTTP/1.1
+content-type: application/json
+
+{
+    "Id": "1",
+    "FirstName": "Kamil",
+    "LastName": "Kowal"
+}
+
